@@ -1,0 +1,38 @@
+.questionnaire-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.questionnaire-title {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.question-text {
+  margin-bottom: 20px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.back-button {
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.next-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.submit-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+

@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "type": "text",
+    "question": "What is your name?",
+    "mandatory": false,
+    "input": "words"
+  },
+  {
+    "id": 2,
+    "type": "text",
+    "question": "What is your email address?",
+    "mandatory": false,
+    "input": "email"
+  },
+  {
+    "id": 3,
+    "type": "radio",
+    "question": "Select your gender:",
+    "options": ["Male", "Female", "Other"],
+    "mandatory": true,
+    "input": "words"
+  },
+  {
+    "id": 4,
+    "type": "radio",
+    "question": "Select your age group:",
+    "options": ["Below 18", "18-25", "26-35", "36-45", "Above 45", "Other"],
+    "mandatory": true,
+    "input": "both"
+  },
+  {
+    "id": 5,
+    "type": "select",
+    "question": "Select your favorite color:",
+    "options": ["Green", "Blue", "Red", "Yellow", "Other"],
+    "mandatory": true,
+    "input": "words"
+  },
+  {
+    "id": 6,
+    "type": "checkbox",
+    "question": "Select your favorite Sport(s)",
+    "options": ["Basketball", "Soccer", "Football", "Baseball", "Other"],
+    "mandatory": false,
+    "input": "words"
+  },
+    
+  {
+    "id": 7,
+    "type": "select",
+    "question": "Select your country:",
+    "options": ["Canada", "US", "UK", "Australia", "Japan", "Other"],
+    "mandatory": true,
+    "input": "words"
+  },
+  {
+    "id": 8,
+    "type": "checkbox",
+    "question": "Select your favorite Shoe brand(s):",
+    "options": ["Nike", "Jordan", "New Balance", "Adidas", "Other"],
+    "mandatory": false,
+    "input": "words"
+  },
+  {
+    "id": 9,
+    "type": "text",
+    "question": "What City are you from?",
+    "mandatory": false,
+    "input": "words"
+  },
+  {
+    "id": 10,
+    "type": "select",
+    "question": "Select your favorite food:",
+    "options": ["Pizza", "Burgers", "Noodles", "Sushi", "Other"],
+    "mandatory": true,
+    "input": "words"
+  }
+]
